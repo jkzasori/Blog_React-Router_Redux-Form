@@ -9,6 +9,7 @@ module.exports = {
     filename: 'js/[name].js'
   },
   devServer: {
+    historyApiFallback: true, //react-router
     port: 9000,
   },
   module: {
